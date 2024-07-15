@@ -1,0 +1,4 @@
+{
+    "terminal.integrated.detectLocale": "auto",
+    "terminal.integrated.environmentChangesIndicator": "warnonly"
+}
