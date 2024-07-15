@@ -1,11 +1,10 @@
 print ('========== DESAFIO 03 ==========')
+#Crie um programa que leia dois números e mostre a soma entre eles
 
-numero1 = input ('Digite o PRIMEIRO número: ')
-numero2 = input ('Digite o SEGUNDO número: ')
+n1 = int (input('Digite o PRIMEIRO número: '))
+n2 = int (input('Digite o SEGUNDO número: '))
 
-numero1 = int(numero1)
-numero2 = int(numero2)
+s = n1 + n2
 
-soma = numero1 + numero2
-
-print('a soma dos números é:', soma)
+#print('a soma entre', n1, 'e', n2, 'vale', s)
+print ('a soma entre {}, e {} vale {}'.format(n1, n2, s))
