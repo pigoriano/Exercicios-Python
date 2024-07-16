@@ -4,7 +4,8 @@ print ('========== DESAFIO 007 ==========')
 nota1 = float(input('Qual foi a nota da Primeira prova? '))
 nota2 = float(input('Qual foi a nota da Segunda prova? '))
 
-soma = nota1 + nota2
+media = (nota1 + nota2) / 2
 
-print('A média da sua nota é: {}'.format(soma))
+print('A média entre {:.1f} e {:.1f} é igual a: {:.1f}'.format(nota1,nota2,media))
 
+5
