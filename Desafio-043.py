@@ -6,18 +6,18 @@ print ('========== DESAFIO 043 ==========')
 #30 até 40: Obesidade
 #Acima de 40: Obesidade mórbida
 
-peso = float (input('PESO: '))
-altura = float (input('ALTURA: '))
+peso = float (input('PESO (Kg): '))
+altura = float (input('ALTURA (m): '))
 
-imc = peso / (altura * altura)
+imc = peso / (altura ** 2)
 
 if imc < 18.6:
-    print ('Você está ABAIXO DO PESO | SEU IMC:')
+    print ('Você está ABAIXO DO PESO | SEU IMC: {:.1f} '.format(imc))
 elif imc > 18.5 and imc <= 24.9:
-    print ('Você está no PESO IDEAL')
+    print ('Você está no PESO IDEAL | SEU IMC: {:.1f} '.format(imc))
 elif imc >= 25 and imc < 29.9:
-    print ('Você está com SOBRE PESO')
+    print ('Você está com SOBRE PESO | SEU IMC: {:.1f} '.format(imc))
 elif imc > 30 and imc < 39.9:
-    print ('Você está com OBESIDADE')
+    print ('Você está com OBESIDADE | SEU IMC: {:.1f} '.format(imc))
 elif imc > 40:
-    print ('Você está com OBESIDADE MÓRBIDA')
+    print ('Você está com OBESIDADE MÓRBIDA | SEU IMC: {:.1f} '.format(imc))
